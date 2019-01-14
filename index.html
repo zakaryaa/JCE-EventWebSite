@@ -1,685 +1,642 @@
-<!DOCTYPE HTML>
-<html class="no-js">
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
-    <!-- Basic Page Needs
-  ================================================== -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>JCE - Journée de la création d'entreprise</title>
-    <meta name="description" content="JCE - Journée de la création d'entreprise ">
-    <meta name="keywords" content="JCE - Journée de la création d'entreprise Maroc entrepreenurs Afrique">
-    <meta name="author" content="Maroc entrepreneurs">
-    <!-- Mobile Specific Metas
-  ================================================== -->
-    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <!-- CSS & favicon
-  ================================================== -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-    <link href="css/style.min.css" rel="stylesheet" type="text/css">
-    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
-    <!-- Color Style -->
-    <link href="colors/color1.min.css" rel="stylesheet" type="text/css">
-    <!-- SCRIPTS ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <!-- Modernizr -->
+  <!-- META:start -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="JCE - Journée de la création d'entreprise ">
+  <meta name="keywords" content="JCE - Journée de la création d'entreprise Maroc entrepreenurs Afrique">
+  <meta name="author" content="Maroc entrepreneurs">
+  <title>JCE - Journée de la création d'entreprise</title>
+  <!-- META:end -->
+
+
+  <!-- normalize css -->
+  <style>
+    /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+    html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:0;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+  </style>
+
+  <!-- Local resources:start -->
+  <link rel="stylesheet" href="./assets/resources/css/styles.css">
+  <!-- Local resources:end -->
+
+  <!-- external resources:start -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:700|Merriweather" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- external resources:end -->
 </head>
 
-<body class="home">
-    <!--[if lt IE 7]>
-	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-<![endif]-->
-    <div class="body">
-        <!-- Start Site Header -->
-        <header class="site-header">
-            <div class="container-spec">
-                <div class="site-logo">
-                    <h1>
-                        <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
-                    </h1>
+<body>
+
+  <header class="header">
+    <div class="header-inner-wrapper">
+      <img class="lazyload" data-src="./assets/resources/images/logo.png" alt="">
+      <button class="hamburger hamburger--collapse" type="button" aria-pressed="false" aria-label="Menu" aria-controls="navigation">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <nav aria-hidden="true" class="nav" id="navigation">
+        <ul class="nav-list">
+          <li class="nav-item nav-item-home"><a href="#home">Acceuil</a></li>
+          <li class="nav-item nav-item-program"><a href="#program">Le Programme</a></li>
+          <li class="nav-item nav-item-speakers"><a href="#speakers">Les intervenants</a></li>
+          <li class="nav-item nav-item-venue"><a href="#venue">Le lieu</a></li>
+          <li class="nav-item nav-item-partners"><a href="#partners">Nos partenaires</a></li>
+          <li class="nav-item nav-item-about"><a href="#about">A propos</a></li>
+          <li class="nav-item last-nav-item"><a href="#">Inscription</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero" id="home">
+      <div class="hero-content slide-in-top">
+        <p class="text-focus-in">
+          L'association Maroc Entrepreneurs a le plaisir de vous convier
+          à la 11 ème édition de son événement annuel
+          La Journée de la Création d’Entreprise 2019
+        </p>
+      </div>
+  </div>
+  <!-- section info:start -->
+  <section class="section info bg-grey" id="info">
+
+    <div class="container">
+      <div class="info-lead">
+        <p>L'association <a href="http://marocentrepreneurs.com/">Maroc Entrepreneurs</a> organise la
+          <strong>10ème édition de la Journée de la Création d’Entreprise</strong>, samedi 2 décembre 2017 de 9h30 à
+          18h30 , au Conseil économique,
+          social et environnemental (CESE) à Paris.<br>Ce rendez-vous phare clôture annuellement le concours labellisé
+          <strong>« Tremplin Maroc »</strong> et récompense les porteurs de projet sélectionnés, souhaitant créer ou
+          développer
+          leur entreprise au Maroc.<br>Depuis sa mise en place en 2007, l’association Maroc Entrepreneurs ambitionne de
+          présenter les meilleures réalisations en matière d’entrepreneuriat et de sensibiliser un large public à la
+          création
+          d'entreprise.
+        </p>
+        </div>
+    </div>
+
+    <div class="info-img-1">
+      <img class="lazyload" data-src="./assets/resources/images/event-program.jpeg" alt="">
+    </div>
+
+    <div class="container extra">
+      <div class="extra-info">
+        <h4>La Journée de la Création d’Entreprise 2017 sera également l’occasion de&nbsp;:</h4>
+        <ul>
+          <li>Présenter les opportunités d’investissement au Maroc;</li>
+          <li>Partager les retours d’expérience d’entrepreneurs confirmés;</li>
+          <li>Rencontrer les différents acteurs de la création d’entreprise;</li>
+        </ul>
+        <p>Comme à son habitude et depuis 18 ans, Maroc Entrepreneurs suit pas à pas l’évolution
+          socioéconomique du Royaume et accompagne les tendances entrepreneuriales. L’événement de cette année se veut
+          une affirmation de l’engouement
+          panafricain des investisseurs internationaux et sera placé sous le thème <strong>«&nbsp;Afrique, terre
+          d’entrepreneurs »</strong>.
+        </p>
+      </div>
+      <div class="info-img-2">
+        <img class="lazyload" data-src="./assets/resources/images/event-poster.jpeg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- section info:end -->
+
+  <!-- section program:start -->
+  <section class="section program" id="program">
+    <div class="centered-head">
+      <h2>PROGRAMME DE LA JOURNEE</h2>
+      <p>
+        Au programme de cette journée, des Master Class axées sur la création d’entreprise,
+        des rencontres, des retours d’expériences et des débats avec des institutionnels et
+        des professionnels dans le domaine de l’entrepreneuriat.
+      </p>
+      <a class="btn primary">Téléchargez le programme détaillé en PDF</a>
+    </div>
+    </div>
+    <div class="events-container">
+      <div class="events-buttons">
+        <button class="event-btn etb-1 active">Matin, 9h30 - 12h</button>
+        <button class="event-btn etb-2">Après midi, 14h - 18h30</button>
+      </div>
+
+      <div class="events-wrapper event-table1 visible">
+        <div class="event">
+          <h4>
+            Master Class 1 : « Rencontre avec les Marocains Entrepreneurs du Monde »
+            <span class="label">9H30 - 12H</span>
+          </h4>
+          <p>
+            animée par M. Adil ZAIDI, Président de la 13ème Région MeM et M.
+            Rachid CHERKAOUI, Vice-président en charge de la zone Europe & Afrique
+            – ConfédérationGénérale des Entreprises du Maroc <a>CGEM</a>.
+          </p>
+        </div>
+        <div class="event">
+          <h4>
+            Master Class 1 : « Rencontre avec les Marocains Entrepreneurs du Monde »
+            <span class="label">9H30 - 12H</span>
+          </h4>
+          <p>
+            animée par M. Adil ZAIDI, Président de la 13ème Région MeM et M.
+            Rachid CHERKAOUI, Vice-président en charge de la zone Europe & Afrique
+            – ConfédérationGénérale des Entreprises du Maroc <a>CGEM</a>.
+          </p>
+        </div>
+        <div class="event">
+          <h4>
+            Master Class 1 : « Rencontre avec les Marocains Entrepreneurs du Monde »
+            <span class="label">9H30 - 12H</span>
+          </h4>
+          <p>
+            animée par M. Adil ZAIDI, Président de la 13ème Région MeM et M.
+            Rachid CHERKAOUI, Vice-président en charge de la zone Europe & Afrique
+            – ConfédérationGénérale des Entreprises du Maroc <a>CGEM</a>.
+          </p>
+        </div>
+        <div class="event">
+          <h4>
+            Master Class 1 : « Rencontre avec les Marocains Entrepreneurs du Monde »
+            <span class="label">9H30 - 12H</span>
+          </h4>
+          <p>
+            animée par M. Adil ZAIDI, Président de la 13ème Région MeM et M.
+            Rachid CHERKAOUI, Vice-président en charge de la zone Europe & Afrique
+            – ConfédérationGénérale des Entreprises du Maroc <a>CGEM</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="events-wrapper event-table2">
+        <div class="event">
+          <h4>
+            Master Class 1 : « Rencontre avec les Marocains Entrepreneurs du Monde »
+            <span class="label">9H30 - 12H</span>
+          </h4>
+          <p>
+            animée par M. Adil ZAIDI, Président de la 13ème Région MeM et M.
+            Rachid CHERKAOUI, Vice-président en charge de la zone Europe & Afrique
+            – ConfédérationGénérale des Entreprises du Maroc <a>CGEM</a>.
+          </p>
+        </div>
+        <div class="event">
+          <h4>
+            Master Class 1 : « Rencontre avec les Marocains Entrepreneurs du Monde »
+            <span class="label">9H30 - 12H</span>
+          </h4>
+          <p>
+            animée par M. Adil ZAIDI, Président de la 13ème Région MeM et M.
+            Rachid CHERKAOUI, Vice-président en charge de la zone Europe & Afrique
+            – ConfédérationGénérale des Entreprises du Maroc <a>CGEM</a>.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- section program:end -->
+
+
+  <!-- section speaker:start -->
+  <section class="section speakers bg-grey" id="speakers">
+    <div class="centered-head">
+      <h2>INTERVENANTS</h2>
+      <p style="font-size: 14px">(liste non exhaustive)</p>
+      <p>
+        Des professionnels, des entrepreneurs et des acteurs de l’entrepreneuriat
+        seront présents et se feront un plaisir d’échanger avec vous, lors du déjeuner
+        Networking qui sera organisé.
+      </p>
+      <a class="btn primary">Rencontrez nos intervenants</a>
+    </div>
+
+    <div class="grid alpha">
+
+      <div class="speaker-card">
+        <div class="avatar">
+          <img class="lazyload" data-src="http://lorempixel.com/400/200/" alt="">
+          <a class="overlay-link">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        <div class="speaker-details">
+          <h4 class="speaker-name">John Doe</h4>
+          <p class="speaker-extra">
+            consectetur adipiscing elit. <a href="#">In in enim</a> et sapien molestie ultricies quis ut quam.
+          </p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="avatar">
+          <img class="lazyload" data-src="http://lorempixel.com/400/400/" alt="">
+          <a class="overlay-link">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        <div class="speaker-details">
+          <h4 class="speaker-name">John Doe</h4>
+          <p class="speaker-extra">
+            consectetur adipiscing elit. <a href="#">In in enim</a> et sapien molestie ultricies quis ut quam.
+          </p>
+        </div>
+      </div>
+
+      <div class="speaker-card last-odd-card">
+        <div class="avatar">
+          <img class="lazyload" data-src="http://lorempixel.com/400/300/" alt="">
+          <a class="overlay-link">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        <div class="speaker-details">
+          <h4 class="speaker-name">John Doe</h4>
+          <p class="speaker-extra">
+            consectetur adipiscing elit. <a href="#">In in enim</a> et sapien molestie ultricies quis ut quam.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="grid beta">
+
+      <div class="speaker-card">
+        <div class="avatar">
+          <img class="lazyload" data-src="http://lorempixel.com/400/400/" alt="">
+          <a class="overlay-link">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        <div class="speaker-details">
+          <h4 class="speaker-name">John Doe</h4>
+          <p class="speaker-extra">
+            consectetur adipiscing elit. <a href="#">In in enim</a> et sapien molestie ultricies quis ut quam.
+          </p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="avatar">
+          <img class="lazyload" data-src="http://lorempixel.com/400/400/" alt="">
+          <a class="overlay-link">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        <div class="speaker-details">
+          <h4 class="speaker-name">John Doe</h4>
+          <p class="speaker-extra">
+            consectetur adipiscing elit. <a href="#">In in enim</a> et sapien molestie ultricies quis ut quam.
+          </p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="avatar">
+          <img class="lazyload" data-src="http://lorempixel.com/400/400/" alt="">
+          <a class="overlay-link">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        <div class="speaker-details">
+          <h4 class="speaker-name">John Doe</h4>
+          <p class="speaker-extra">
+            consectetur adipiscing elit. <a href="#">In in enim</a> et sapien molestie ultricies quis ut quam.
+          </p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="avatar">
+          <img class="lazyload" data-src="http://lorempixel.com/400/400/" alt="">
+          <a class="overlay-link">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        <div class="speaker-details">
+          <h4 class="speaker-name">John Doe</h4>
+          <p class="speaker-extra">
+            consectetur adipiscing elit. <a href="#">In in enim</a> et sapien molestie ultricies quis ut quam.
+          </p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="avatar">
+          <img class="lazyload" data-src="http://lorempixel.com/400/400/" alt="">
+          <a class="overlay-link">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        <div class="speaker-details">
+          <h4 class="speaker-name">John Doe</h4>
+          <p class="speaker-extra">
+            consectetur adipiscing elit. <a href="#">In in enim</a> et sapien molestie ultricies quis ut quam.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- section speaker:end -->
+
+  <!-- section venue:start -->
+  <section class="section venue" id="venue">
+    <div class="centered-head">
+      <h2>LE LIEU</h2>
+      <h3>CESE - CONSEIL ÉCONOMIQUE, SOCIAL ET ENVIRONNEMENTAL</h3>
+      <p>
+        Assemblée constitutionnelle de la République, le Conseil économique,
+        social et environnemental (CESE) favorise le dialogue entre les différentes
+        composantes et la société civile organisée et qualifiée en assurant l’interface
+        avec les décideur.euse.s.politiques.
+      </p>
+      <p style="font-size: 0.8em">Suivez l’actualité du CESE et de ses travaux :</p>
+      <a class="btn primary" href="https://www.lecese.fr/">https://www.lecese.fr/</a>
+    </div>
+    <div id="gmap"></div>
+    <div class="reg-details bg-grey">
+      <div class="one-half reg-info">
+        <h4>Inscription obligatoire</h4>
+        <p>
+          Une seule inscription possible pour les ateliers du matin.
+          Les inscriptions seront prises en compte par ordre d'arrivée et
+          dans la mesure des places disponibles. Clôture des inscriptions
+          le vendredi 1er décembre 2017.
+        </p>
+      </div>
+      <div class="one-half">
+        <a class="btn secondary">Réservez</a>
+      </div>
+    </div>
+  </section>
+  <!-- section venue:end -->
+
+  <!-- section partners:start -->
+  <section class="section" id="partners">
+
+    <section class="sub-section partners">
+      <h2>Nos partenaires</h2>
+      <div class="simple-grid">
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/1-ESG.jpeg" alt="ESG"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/2-ESGCI.jpeg" alt="ESGCI"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/3-IPEMED.jpeg" alt="IPEMED"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/4-inone.jpeg" alt="inone"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/5-Sensei.jpeg" alt="inone"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/6-CESE.png" alt="CESE"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/7-IMA.png" alt="IMA"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/8-MEM.png" alt="MEM"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/9-AFEM.png" alt="AFEM"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/10-Maroc_Numric_Cluster.jpeg" alt="Maroc Numric Cluster"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/11-Cab_Seddik.jpg" alt="Cab Seddik"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/12-K&A.png" alt="K&A"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/13-PRIVATE_FRENCH_UNIVERSITY.jpg" alt="PRIVATE FRENCH UNIVERSITY"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/14-Lambassadrice.png" alt="Lambassadrice"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/15-KEEP_SMILING.png" alt="KEEP SMILING"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/16-AMGE.jpg" alt="AMGE"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/18-AIAPIAA.png" alt="AIAPIAA"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/19-CCMF.png" alt="CCMF"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/partenaires/20-jobmre.png" alt="jobmre"></div>
+      </div>
+    </section>
+
+    <section class="sub-section sponsors bg-grey">
+      <h2>Nos sponsors</h2>
+      <div class="simple-grid">
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/1-MCMRE.png" alt="MCMRE"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/2-Ambassade_du_Maroc.png" alt="Ambassade du Maroc"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/3-Fondation_Hassan_2.jpg" alt="Fondation Hassan 2"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/4-AMDIE.jpeg" alt="AMDIE"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/5-Mazars.jpeg" alt="Mazars"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/6-CCG.png" alt="CCG"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/7-C3_Medical.png" alt="C3 Medical"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/8-Al_Omrane.png" alt="Al Omrane"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/9-Dari.png" alt="Dari"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/10-SUEZ.png" alt="SUEZ"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/11-Tisea.jpg" alt="Tisea"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/12-Hexagone_Digitale.jpeg" alt="Hexagone Digitale"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/13-Insijam.png" alt="Insijam"></div>
+        <div class="box"><img class="lazyload" data-src="./assets/resources/images/sponsors/15-Sultan.png" alt="Sultan"></div>
+    </div>
+    </section>
+
+    <section class="sub-section media">
+        <h2>Médias</h2>
+        <div class="simple-grid">
+          <div class="box"><img class="lazyload" data-src="./assets/resources/images/media/1-TV5_Monde.png" alt="TV5 Monde"></div>
+          <div class="box"><img class="lazyload" data-src="./assets/resources/images/media/2-Africa_24.png" alt="Africa 24"></div>
+          <div class="box"><img class="lazyload" data-src="./assets/resources/images/media/3-Al_oula.png" alt="Al oula"></div>
+          <div class="box"><img class="lazyload" data-src="./assets/resources/images/media/4-canal_atlas.jpg" alt="canal atlas"></div>
+          <div class="box"><img class="lazyload" data-src="./assets/resources/images/media" alt=""></div>
+        </div>
+    </section>
+  </section>
+  <!-- section partners:end -->
+
+  <section class="section about" id="about">
+    <section class="sub-section about-us bg-grey">
+      <h2>
+        A PROPOS DE
+        <a href="http://marocentrepreneurs.com/">
+          MAROC ENTREPRENEURS
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </h2>
+      <p>
+        Maroc Entrepreneurs est une association à but non lucratif,
+        créée en 1999 à Paris. Elle a pour vocation de contribuer au
+        développement socio-économique du Maroc, à travers trois principaux leviers :
+      </p>
+      <ul>
+      <li>
+          <i class="fas fa-eye"></i>
+          Faire découvrir l’univers de la création d’entreprise et
+          l’actualité socio-économique du Maroc;
+        </li>
+        <li>
+          <i class="fas fa-random"></i>
+          Etablir des synergies entre les entreprises basées au Maroc
+          et les compétences marocaines à l’étranger;
+        </li>
+        <li>
+          <i class="fas fa-thumbs-up"></i>
+          Encourager les Marocains résidant à l'étranger ou des personnes
+          fortement attachées au Maroc à créer leurs entreprises par le biais
+          du Concours Tremplin.
+        </li>
+      </ul>
+      <p>
+        L’association regroupe aujourd’hui le plus grand réseau de
+        cadres supérieurs et d’étudiants marocains avec plus de 12.000
+        membres. Son ambition est de proposer aux entrepreneurs en herbe
+        un cadre propice qui leur permettra de :
+      </p>
+      <ul>
+        <li>
+          <i class="fas fa-check-square"></i>
+          Passer du stade de l’idée à la définition d’un Business Plan concret et complet ;
+        </li>
+        <li>
+          <i class="fas fa-book"></i>
+          Développer leurs compétences grâce aux sessions de formation
+          individualisées dispensées par des experts en création d’entreprise;
+        </li>
+        <li>
+          <i class="fas fa-globe-africa"></i>
+          Etendre leur réseau, nouer des contacts avec les partenaires
+          investisseurs les soutenant dans le financement de leur
+          entreprise et accroître leur visibilité.
+        </li>
+      </ul>
+    </section>
+
+    <section class="sub-section about-program">
+      <div class="centered-head">
+        <h2>A PROPOS DU PROGRAMME TREMPLIN MAROC</h2>
+        <p>
+          Le programme Tremplin Maroc est le fer de lance de l’association.
+          Il offre chaque année à une dizaine d’entrepreneurs en herbe une
+          formation gratuite, un coaching personnalisé puis des mises en
+          relation pour concrétiser leur projet de création d’entreprise au Maroc.
+        </p>
+      </div>
+      <div class="about-extra">
+        <div class="first-column">
+          <h3>Présentation en vidéo</h3>
+          <div class="video-wrapper">
+            <iframe title="PRÉSENTATION: MAROC ENTREPRENEURS" src="http://www.youtube.com/embed/fJpWNjW8w54?rel=0"
+            frameborder="0" allowfullscreen></iframe></div>
+        </div>
+
+        <div class="second-column">
+            <h3>Témoignages des anciens lauréats</h3>
+            <div class="accordion-wrapper">
+              <div class="accordion">
+                <button class="accordion-button">
+                  <h4>
+                    ResinCycle – TM 2014<br>
+                    Par Manal KHALIKANE et Fahd NEAM-ALLAH
+                  </h4>
+                </button>
+                <div class="panel">
+                  <p>
+                    « ResinCycle est une société de recyclage et de régénération
+                    des résines à partir de différents déchets plastiques
+                    (consommables et industriels).  Notre cœur de métier consiste à:
+                    recycler les déchets plastiques, croiser les différents grades de
+                    résines, renforcer les propriétés chimiques et mécaniques des résines
+                    et enfin développer la Supply Chain au Maroc. Notre participation au
+                    concours de Maroc Entrepreneurs a été un tremplin pour notre lancement.
+                    Le soutien de Maroc Entrepreneurs nous a permis d’avoir une vision claire
+                    et précise sur la stratégie à adopter pour attaquer notre marché.»
+                  </p>
                 </div>
-                <!-- Main Navigation -->
-                <nav class="main-navigation" role="navigation">
-                    <ul class="sf-menu">
-                        <li><a href="#home">Accueil</a></li>
-                        <li><a href="#schedule">Le programme</a></li>
-                        <li><a href="#speakers">Les intervenants</a></li>
-                        <li><a href="#venue">Le lieu</a></li>
-                        <li><a href="#partners">Nos partenaires</a></li>
-                        <li><a href="#about">A propos</a></li>
-                        <li class="highlight"><a href="https://www.weezevent.com/journee-de-la-creation-dentreprise-2017">Inscription</a></li>
-                    </ul>
-                </nav><a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a></div>
-        </header>
-        <!-- End Site Header -->
-        <!-- Showcase -->
-        <div class="showcase wheighter">
-            <!-- Start Hero Slider -->
-            <div class="hero-slider flexslider wheighter" data-autoplay="yes" data-pagination="no" data-arrows="no" data-style="fade" data-speed="8000" data-pause="no">
-                <ul class="slides">
-                    <li class="parallax parallax1 wheighter" style="background-image:url(./images/CESE.jpg)"></li>
-                </ul>
-            </div>
-            <!-- End Hero Slider -->
-            <div class="event-hero-info">
-                <div class="container">
-                    <div class="event-info event-trans-bg">
-                        <!-- <span class="fl" data-appear-animation="fadeInDown" data-appear-animation-delay="200">Maroc Entrepreneurs vous invite à la</span> -->
-                        <!-- <span class="sl" data-appear-animation="zoomIn" data-appear-animation-delay="500">JCE</span> -->
-                        <span class="fl dynamic-font" data-appear-animation="fadeInDown" data-appear-animation-delay="500">L'association Maroc Entrepreneurs a le plaisir de vous convier<br>à la 10 ème édition de son événement annuel</span>
-                        <!-- <span class="fl" data-appear-animation="fadeInDown" data-appear-animation-delay="600"> </span> -->
-                        <!-- <span class="sl" data-appear-animation="zoomIn" data-appear-animation-delay="500">JCE</span> -->
-                        <span class="fl dynamic-font" data-appear-animation="fadeInDown" data-appear-animation-delay="700">La Journée de la Création d’Entreprise 2017</span>
-                        <span class="event-date dynamic-font" data-appear-animation="fadeInUp" data-appear-animation-delay="900"><strong>Lieu :</strong> Conseil économique, social et environnemental (Palais d’Iéna), Paris<br><strong>Date</strong> : Samedi 2 décembre 2017<br><strong>Horaires</strong> : de 9h30 à 18h30 </span>
-                        <span class="tl dynamic-sfont" data-appear-animation="fadeInDown" data-appear-animation-delay="100">Photo © CESE Benoît Fougeirol<br>© Palais d'IÈna, architecte Auguste Perret, UFSE, SAIF</span>
-                    </div>
+              </div>
+
+              <div class="accordion">
+                <button class="accordion-button">
+                  <h4>
+                    MOWII – TM 2013<br>
+                    Par Thameur HEMDANE
+                  </h4>
+                </button>
+                <div class="panel">
+                  <p>
+                    «Le programme d’accompagnement de Tremplin Maroc a été décisif dans
+                    le lancement de mon projet entrepreneurial. Les formations à la définition
+                    du modèle économique et à l’élaboration des prévisionnels financiers sont
+                    de qualité. Elles m’ont fourni les outils indispensables pour la maîtrise
+                    des dimensions entrepreneuriale, économique et financière de mon projet.
+                    Le programme se distingue également par une offre de coaching et de mise
+                    en réseau qui m’a permis d’avoir rapidement les points d’appui au Maroc.
+                    Je recommande ce programme à tous ceux qui souhaitent se lancer dans
+                    l’aventure entrepreneuriale au Maroc ou qui hésitent encore à franchir le pas. »
+                  </p>
                 </div>
+              </div>
+
+              <div class="accordion">
+                <button class="accordion-button">
+                  <h4>
+                    Cash-to-cash – TM 2012<br>
+                    Par Naama BAK et Abdelhamid BAKHTA
+                  </h4>
+                </button>
+                <div class="panel">
+                  <p>
+                    « Maroc Entrepreneurs était pour nous un tremplin pour le lancement et
+                    la maturité de notre projet. En effet, nous avons pu réaliser notre
+                    business plan et nous initier aux divers aspects de l'entrepreneuriat,
+                    grâce aux cours et séances de coaching. Nous avons aussi réussi à constituer
+                    un réseau très important dans le monde du Business. En outre, Maroc Entrepreneurs
+                    nous a donné l'opportunité de rencontrer des investisseurs dont notre Business
+                    Angel qui a financé notre brevet. »
+                  </p>
+                </div>
+              </div>
             </div>
         </div>
-        <!-- Start Body Content -->
-        <div class="main" role="main">
-            <div id="content" class="content full">
-                <!-- Accueil Section Content -->
-                <section id="home">
-                    <div class="padding-tb50 lgray-bg">
-                        <div class="container">
-                            <p class="lead">L'association <a href="http://marocentrepreneurs.com/">Maroc Entrepreneurs</a> organise la <strong>10ème édition de la Journée de la Création d’Entreprise</strong>, samedi 2 décembre 2017 de 9h30 à 18h30 , au Conseil économique,
-                                social et environnemental (CESE) à Paris.<br/>Ce rendez-vous phare clôture annuellement le concours labellisé <strong>« Tremplin Maroc »</strong> et récompense les porteurs de projet sélectionnés, souhaitant créer ou développer
-                                leur entreprise au Maroc.<br/>Depuis sa mise en place en 2007, l’association Maroc Entrepreneurs ambitionne de présenter les meilleures réalisations en matière d’entrepreneuriat et de sensibiliser un large public à la création
-                                d'entreprise.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="container-spec home-content">
-                        <div class="row">
-                            <div class="col-md-7 col-sm-7">
-                                <div class="video-popup"><img src="./images/Maroc entrepreneurs-JCE.jpg" alt="JCE" />
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-sm-5">
-                                <div class="fw-inner-right">
-                                    <h4>La Journée de la Création d’Entreprise 2017 sera également l’occasion de :</h4>
-                                    <ul class="default-font">
-                                        <li>Présenter les opportunités d’investissement au Maroc ;</li>
-                                        <li>Partager les retours d’expérience d’entrepreneurs confirmés ;</li>
-                                        <li>Rencontrer les différents acteurs de la création d’entreprise au Maroc ;</li>
-                                    </ul>
-                                    <p class="default-font">Comme à son habitude et depuis 18 ans, Maroc Entrepreneurs suit pas à pas l’évolution socioéconomique du Royaume et accompagne les tendances entrepreneuriales. L’événement de cette année se veut une affirmation de l’engouement
-                                        panafricain des investisseurs internationaux et sera placé sous le thème <strong>« Afrique, terre d’entrepreneurs »</strong>.</p>
-                                </div>
-                            </div>
-                        </div>
+      </div>
+    </section>
+  </section>
 
-                    </div>
-                </section>
-                <!-- Programme Section Content -->
-                <section class="onepage-section" id="schedule">
-                    <div class="container">
-                        <header class="onepage-section-headers text-align-center">
-                            <h3 class="page-title">PROGRAMME DE LA JOURNEE</h3>
-                            <h2 class="page-stitle">Au programme de cette journée, des Master Class axées sur la création d’entreprise, des rencontres, des retours d’expériences et des débats avec des institutionnels et des professionnels dans le domaine de l’entrepreneuriat.</h2>
-                            <a href="./Programme_JCE_2017.pdf" class="btn btn-primary btn-lg">Téléchargez le programme détaillé en PDF</a>
-                        </header>
-                        <div class="spacer-30"></div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="tabs schedule-tabs">
-                                    <ul class="nav nav-tabs">
-                                        <li class="active"><a data-toggle="tab" href="#sampletab1">Matin, 9h30 - 12h</a></li>
-                                        <li><a data-toggle="tab" href="#sampletab2">Après midi, 14h - 18h30</a></li>
-                                    </ul>
-                                    <div class="tab-content lgray-bg">
-                                        <div id="sampletab1" class="tab-pane active">
-                                            <div class="event-task">
-                                                <h5>Master Class 1 : « Rencontre avec les Marocains Entrepreneurs du Monde »   <span class="label label-secondary">9h30 - 12h</span></h5>
-                                                <p> animée par M. Adil ZAIDI, Président de la 13ème Région MeM et M. Rachid CHERKAOUI, Vice-président en charge de la zone Europe & Afrique – ConfédérationGénérale des Entreprises du Maroc <a class="accent-color-secondary"
-                                                        href="http://www.cgem.ma/">CGEM</a>.</p>
-                                            </div>
-                                            <div class="event-task">
-                                                <h5>Master Class 2 : « Entreprendre en Lean Startup » <span class="label label-secondary">9h30 - 12h</span></h5>
-                                                <p>Animée par M. Daniel BELLAHSEN, Fondateur et Président du Cabinet
-                                                    <a class="accent-color-secondary" href="http://www.epigo.fr/">EPIGO</a>.</p>
-                                            </div>
-                                            <div class="event-task">
-                                                <h5>Master Class 3 : « Vers une croissance inclusive réussie en Afrique »
-                                                    <span class="label label-secondary">9h30 - 12h</span></h5>
-                                                <p>Animée par M. Farid ARAB, Fondateur du Collectif <a class="accent-color-secondary" href="http://www.swyft-group.fr/">Founder Family</a> et M. Chris KOUASSI COKSON, Directeur et Cofondateur de Swyft Group
-                                                    <a class="accent-color-secondary" href="http://www.swyft-group.fr/">Swyft Group</a> .</p>
-                                            </div>
-                                            <div class="event-task">
-                                                <h5>Master Class 4 : « Les clés pour s’installer au Maroc»  <span class="label label-secondary">9h30 - 12h</span></h5>
-                                                <p>Animée par Mme Asmâa MORINE AZZOUZI, Présidente de Cais Consulting et de l’Association des Femmes chefs d’Entreprise du Maroc <a class="accent-color-secondary" href="http://www.afem.ma/">AFEM</a> .</p>
-                                            </div>
-                                        </div>
-                                        <div id="sampletab2" class="tab-pane">
-                                            <div class="event-task">
-                                                <h5>Table ronde : « L’Afrique, terre d’investissements »<span class="label label-secondary">14h</span></h5>
-                                                <p>L’équipe Maroc Entrepreneurs vous propose d’échanger sur la thématique « L’Afrique, terre d’investissements »</p>
-                                            </div>
-                                            <div class="event-task">
-                                                <h5>Présentation des projets de la 10ème édition du concours « Tremplin Maroc 2017»<span class="label label-secondary"> 15h30</span></h5>
-                                                <p>Programme gratuit d’aide à la création d’entreprise de Maroc Entrepreneurs et remise des prix aux 3 meilleurs projets du concours « Tremplin Maroc 2017».</p>
-                                            </div>
-                                            <div class="event-task">
-                                                <h5>13ème Région des Marocains Entrepreneurs du Monde (MeM)<span class="label label-secondary"> 16h30</span></h5>
-                                                <p>Présentation de la 13ème Région des Marocains Entrepreneurs du Monde (MeM) par la Confédération Générale des Entreprises du Maroc <a class="accent-color-secondary" href="http://www.cgem.ma/">CGEM</a>.</p>
-                                            </div>
-                                            <div class="event-task">
-                                                <h5>Cocktail et networking<span class="label label-secondary"> 18h30</span></h5>
-                                                <p>Cocktail de clôture le la JCE par <a class="accent-color-secondary" href="http://marocentrepreneurs.com/">Maroc Entrepreneurs</a>  .</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="spacer-50"></div>
-                </section>
-                <!-- Intervenants Section Content -->
-                <section class="onepage-section lgray-bg" id="speakers">
-                    <div class="container">
-                        <header class="onepage-section-headers text-align-center">
-                            <h3 class="page-title">Intervenants</h3>
-                            <p>(liste non exhaustive)</p>
-                            <h2 class="page-stitle">Des professionnels, des entrepreneurs et des acteurs de l’entrepreneuriat seront présents et se feront un plaisir d’échanger avec vous, lors du déjeuner Networking qui sera organisé.</h2><a href="https://www.weezevent.com/journee-de-la-creation-dentreprise-2017"
-                                class="btn btn-primary btn-lg">Rencontrez nos intervenants</a></header>
-                        <div class="row">
-                            <ul class="team-grid">
-                                <li class="col-md-6 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/CBe.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner">
-                                                <!--  <a href="#"><i class="fa fa-twitter"></i></a> --><a href="http://www.amb-maroc.fr/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>Son Excellence M. Chakib BENMOUSSA</h5>
-                                        <p><a class="accent-color-secondary" href="http://www.amb-maroc.fr/">Ambassadeur du Royaume du Maroc en France</a></p>
-                                    </div>
-                                </li>
-                                <li class="col-md-6 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/PB.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner">
-                                                <!-- <a href="#"><i class="fa fa-twitter"></i></a>--><a href="http://www.lecese.fr/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Patrick BERNASCONI</h5>
-                                        <p>Président du <a class="accent-color-secondary" href="http://www.lecese.fr/">Conseil économique, social et environnemental </a>France</p>
-                                    </div>
-                                </li>
-                                <li class="col-md-6 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/DG.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner">
-                                                <!-- <a href="#"><i class="fa fa-twitter"></i></a>--><a href="http://www.ces.ma/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Driss GUERRAOUI</h5>
-                                        <p>Secrétaire Général du <a class="accent-color-secondary" href="http://www.ces.ma/">Conseil économique, social et environnemental</a> Maroc</p>
-                                    </div>
-                                </li>
-                                <li class="col-md-6 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/MBC.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner">
-                                                <!-- <a href="#"><i class="fa fa-twitter"></i></a>--><a href="http://www.ces.ma/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>Mme Miriem BENSALAH-CHAQROUN</h5>
-                                        <p>Présidente de la Confédération Générale des Entreprises du Maroc <a class="accent-color-secondary" href="http://www.cgem.ma/">CGEM</a></p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/DBe.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner">
-                                                <!-- <a href="#"><i class="fa fa-twitter"></i></a> --><a href="http://www.epigo.fr/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Daniel BELLAHSEN</h5>
-                                        <p>Fondateur et Directeur associé du Cabinet <a class="accent-color-secondary" href="http://www.epigo.fr/">EPIGO</a></p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/FA.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner">
-                                                <a href="http://www.swyft-group.fr/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Farid ARAB</h5>
-                                        <p>Fondateur du Collectif <a class="accent-color-secondary" href="http://www.swyft-group.fr/">Founder Family</a></p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/CKC.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner">
-                                                <a href="http://www.swyft-group.fr/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Chris KOUASSI COKSON</h5>
-                                        <p>Directeur et Cofondateur de <a class="accent-color-secondary" href="http://www.swyft-group.fr/">Swyft Group</a></p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/AZ.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner">
-                                                <a href="http://www.cgem.ma/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Adil ZAIDI</h5>
-                                        <p>Président de la 13ème Région des Marocains Entrepreneurs du Monde de la Confédération Générale des Entreprises du Maroc <a class="accent-color-secondary" href="http://www.cgem.ma/">CGEM</a>.</p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/AMA.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner"><a href="http://www.afem.ma/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>Mme Asmâa MORINE AZZOUZI</h5>
-                                        <p>Présidente de Cais Consulting et de l’Association des Femmes chefs d’Entreprise du Maroc <a class="accent-color-secondary" href="http://www.afem.ma/">AFEM</a></p>
-                                    </div>
-                                </li>
-                                <!-- Invités -->
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/ASD.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner"><a href="http://www.mazars.ma/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Abdou Souleye DIOP</h5>
-                                        <p>Directeur Associé du Cabinet <a class="accent-color-secondary" href="http://www.mazars.ma/">Mazars Maroc</a></p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/RC.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner"><a href="http://www.cgem.ma/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Rachid CHERKAOUI</h5>
-                                        <p>Vice-président de la 13ème Région MeM - Zone Europe & Afrique Confédération Générale des Entreprises du Maroc <a class="accent-color-secondary" href="http://www.cgem.ma/">CGEM</a>.</p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/HG.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner"><a href="http://www.cadhoc.ma/presentation-de-up-maroc/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Hervé GOMBERT</h5>
-                                        <p>Directeur Général <a class="accent-color-secondary" href="http://www.cadhoc.ma/presentation-de-up-maroc/">Maroc groupe Up </a>(Ex Chèque-Déjeuner)</p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/NFA.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner"><a href="https://www.sahamassurance.ma/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>Mme Nadia FETTAH ALAOUI</h5>
-                                        <p>Directrice Générale Déléguée de <a class="accent-color-secondary" href="https://www.sahamassurance.ma/">Saham Finances </a>et Présidente du Conseil d’Administration de <a class="accent-color-secondary" href="https://www.sahamassurance.ma/">Saham Assurance</a></p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/HZS.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner"><a href="http://www.ccg.ma/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Hicham ZANATI SERGHINI</h5>
-                                        <p>Directeur Général de la <a class="accent-color-secondary" href="http://www.ccg.ma/">Caisse Centrale de Garantie</a></p>
-                                    </div>
-                                </li>
-                                <!-- Invités suite -->
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/LB.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner"><a href="https://www.technopark.ma/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>Mme Lamiae BENMAKHLOUF</h5>
-                                        <p>Directrice Générale de <a class="accent-color-secondary" href="https://www.technopark.ma/">Technopark</a></p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/KI.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner"><a href="http://www.ocpgroup.ma/fr"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Khaled IGUE</h5>
-                                        <p>Directeur des Partenariats Publics et Institutionnels à <a class="accent-color-secondary" href="http://www.ocpgroup.ma/fr">OCP Africa</a></p>
-                                    </div>
-                                </li>
-                                <li class="col-md-3 col-sm-6 team-item">
-                                    <div class="team-item-image"><img src="./images/intervenants/MD.jpg" alt="">
-                                        <div class="team-item-overlay">
-                                            <div class="team-item-overlay-inner"><a href="https://ethicphone.com/"><i class="fa fa-globe"></i></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="team-item-cont">
-                                        <h5>M. Mouhamed DIAKITE</h5>
-                                        <p>CEO <a class="accent-color-secondary" href="https://ethicphone.com/">EthicPhone</a></p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="spacer-50"></div>
-                </section>
-                <!-- Lieu Section Content -->
-                <section class="onepage-section" id="venue">
-                    <div class="container">
-                        <header class="onepage-section-headers text-align-center">
-                            <h3 class="page-title">LE LIEU</h3>
-                            <h4>CESE - Conseil économique, social et environnemental</h4>
-                            <p style="font-size:.8em;margin:0">Assemblée constitutionnelle de la République, le Conseil économique, social et environnemental (CESE) favorise le dialogue entre les différentes composantes et la société civile organisée et qualifiée en assurant l’interface
-                                avec les décideur.euse.s.politiques.</p><br>
-                            <p>Suivez l’actualité du CESE et de ses travaux :</p><a href="http://www.lecese.fr/" class="btn btn-primary btn-lg">http://www.lecese.fr/</a></header>
-                    </div>
-                    <div class="venue-view lgray-bg">
-                        <div id="gmap"></div>
-                        <div class="quick-venue-info hide">
-                            <div style="text-align:center" class="quick-venue-info-details">
-                                <h3>CESE</h3>
-                                <p>Conseil Economique, Social et Environnemental</p>
-                                <p>9 Place d'Iéna, 75016 Paris</p><br>
-                                <p>Station Metro <b>Trocadero</b></p><img src="images/M6.png"> <img src="images/M9.png"></div>
-                            <hr class="fw">
-                            <hr class="fw"><span class="small"><a href="https://www.google.fr/maps/place/Conseil+Economique+Social+et+Environnemental/@48.8640272,2.2926463,15z/data=!4m5!3m4!1s0x0:0xf739803c0ef52c2a!8m2!3d48.8640272!4d2.2926463">Voir sur google maps </a></span>
-                        </div>
-                    </div>
-                    <div class="padding-tb50 lgray-bg call-to-action">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8 col-sm-6">
-                                    <h3>Inscription obligatoire</h3>
-                                    <p class="short">Une seule inscription possible pour les ateliers du matin. Les inscriptions seront prises en compte par ordre d'arrivée et dans la mesure des places disponibles. Clôture des inscriptions le vendredi 1er décembre 2017.</p>
-                                </div>
-                                <div class="col-md-4 col-sm-6"><a href="https://www.weezevent.com/journee-de-la-creation-dentreprise-2017" class="btn push-top-small btn-primary btn-lg btn-primary-secondary pull-right">Réservez</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Partenaires Section Content -->
-                <section class="onepage-section lgray-bg" id="partners">
-                    <div class="container">
-                        <header class="onepage-section-headers text-align-center">
-                            <h3 class="page-title">Cette journée vous est présentée par :</h3>
-                            <hr class="sm">
-                        </header>
-                        <div class="text-align-center">
-                            <a href="http://marocentrepreneurs.com/"><img src="./images/Logo-ME.png" alt="Maroc entrepreneurs"></a>
-                            <div class="spacer-75"></div>
-                            <h3>Nos partenaires</h3>
-                            <hr class="sm">
-                        </div>
-                        <div class="row text-align-center">
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/1T1.png" alt="CESE"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/2T1.png" alt="Ambassade du Royaume Maroc"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/3T1.png" alt="GL"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/4T1.png" alt="EPIGO"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/5T2.png" alt="Cabinet esseddik"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/5T21.png" alt="Casablanca Paris"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/6T2.png" alt="AFEM"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/7T2.png" alt="MEM"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/8T2.png" alt="ESCP Europe"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/9T3.png" alt="ESCP Maroc"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/10T3.png" alt="AMGE Caravane"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/11T3.png" alt="Keep Smiling"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/12T3.png" alt="Club Cadres Marocain en France"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/13T3.png" alt="BY'Z"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/14T3.png" alt="Club France Maroc"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/15T3.png" alt="Carrefour Maghrebin"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/16T3.png" alt="AIAP"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/partenaires/17T3.png" alt="Gazelles NPDC"></div>
-                        </div><br>
-                        <div class="text-align-center">
-                            <div class="spacer-75"></div>
-                            <h3>Nos sponsors</h3>
-                            <hr class="sm">
-                        </div>
-                        <div class="row text-align-center">
-                            <div class="col-md-4 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/1T1.png" alt="BMCE EURO services"></div>
-                            <div class="col-md-4 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/2T1.png" alt="Saham Finances"></div>
-                            <div class="col-md-4 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/3T1.png" alt="AL omrane"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/3T12.png" alt="FH2MRE"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/3T12+.png" alt="Couscous DARI"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/3T13.png" alt="Royal Air Maroc"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/3T14.png" alt="Royal Air Maroc"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/4T2.png" alt="Suez"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/4T21.png" alt="Intelcia"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/5T2.png" alt="Caisse Centrale de grantie"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/6T2.png" alt="Tisséa"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/7T2.png" alt="Sidoric"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/7T22.png" alt="Avaliance"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/8T3.png" alt="C3 médical"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/9T3.png" alt="Aisha services"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/10T3.png" alt="Pompes funèbres du rite musulmans"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/10T32.png" alt="Collerette"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img src="images/partenaires/sponsors/11T3.png" alt="Sultan"></div>
-                        </div>
-                        <div class="text-align-center">
-                            <div class="spacer-75"></div>
-                            <h3>Médias</h3>
-                            <hr class="sm">
-                        </div>
-                        <div class="row text-align-center">
-                            <div class="col-md-4 col-sm-4 col-xs-6"><img src="images/partenaires/media/1T1.png" alt="TV5 Monde"></div>
-                            <div class="col-md-4 col-sm-4 col-xs-6"><img src="images/partenaires/media/2T1.png" alt="2M"></div>
-                            <div class="col-md-4 col-sm-4 col-xs-6"><img src="images/partenaires/media/3T1.png" alt="Comité parité diversité"></div>
-                            <div class="col-md-4 col-sm-4 col-xs-6"><img src="images/partenaires/media/4T1.png" alt="Africa 24"></div>
-                            <div class="col-md-4 col-sm-4 col-xs-6"><img src="images/partenaires/media/5T1.png" alt="France 24"></div>
-                        </div><br>
+  <footer class="details-footer">
+    <div class="column first-column">
+      <h4>JCE - JOURNÉE DE LA CRÉATION D'ENTREPRISE</h4>
+      <img class="lazyload" data-src="./assets/resources/images/logo.png" alt="">
+      <h4>INSCRIVEZ-VOUS DÈS MAINTENANT À LA PROCHAINE ÉDITION DE TREMPLIN MAROC !</h4>
+      <p class="email">Contact: pce(at)marocentrepreneurs.com</p>
+    </div>
+    <div class="column second-column">
+      <h4>ET SI C’ÉTAIT VOUS LE PROCHAIN LAURÉAT ?</h4>
+      <ul>
+        <li>Vous avez une idée de création d’entreprise au Maroc?</li>
+        <li>Vous voulez la concrétiser par la conception d’un Business Plan?</li>
+        <li>Vous cherchez des contacts pour booster votre projet?</li>
+      </ul>
+    </div>
+    <div class="column third-column">
+      <p>
+        <strong>ATTENTION :</strong> UNE seule inscription possible
+        pour les ateliers du matin. Les inscriptions seront prises
+        en compte par ordre d'arrivée et dans la mesure des places disponibles.
+        Clôture des inscriptions le vendredi 1er décembre 2017.
+      </p>
+      <a class="btn secondary" href="https://www.weezevent.com/journee-de-la-creation-dentreprise-2017">INSCRIPTION JCE OBLIGATOIRE</a>
+      <p class="email">
+        <strong>Contact JCE: </strong>
+        Présidente :Bouchra BAYED, bouchra.bayed(at)marocentrepreneurs.com
+      </p>
+    </div>
+  </footer>
+  <footer class="footer">
+    <p>© 2017 Maroc entrepreneurs. Tous droits réservés.</p>
+    <a title="Maroc entrepreneurs facebook page" href="https://www.facebook.com/maroc.entrepreneurs.1/">
+      <i class="fab fa-facebook"></i>
+    </a>
+  </footer>
 
-                        <div class="row text-align-center">
-                            <div class="col-md-3 col-sm-4 col-xs-4"><img src="images/partenaires/media/6T2.png" alt="Courrier de l'atlas"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-4"><img src="images/partenaires/media/7T2.png" alt="La vie éco"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-4"><img src="images/partenaires/media/8T2.png" alt="Médias 24"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-4"><img src="images/partenaires/media/9T2.png" alt="MAP"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-4"><img src="images/partenaires/media/10T2.png" alt="Jeune Afrique"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-4"><img src="images/partenaires/media/11T2.png" alt="Aujourd'hui le Maroc"></div>
-                            <div class="col-md-3 col-sm-4 col-xs-4"><img src="images/partenaires/media/12T2.png" alt="l'économiste"></div>
-                        </div>
-                    </div>
-                    <div class="spacer-50"></div>
-                </section>
-                <!-- à propos Section Content -->
-                <section class="onepage-section" id="about">
-                    <div class="padding-tb50 lgray-bg">
-                        <div class="container">
-                            <h3 class="page-title">A propos de <strong><a class="accent-color-secondary" href="http://marocentrepreneurs.com/">Maroc Entrepreneurs</a></strong></h3>
-                            <p class="lead">Maroc Entrepreneurs est une association à but non lucratif, créée en 1999 à Paris. Elle a pour vocation de contribuer au développement socio-économique du Maroc, à travers trois principaux leviers :<br><span class="glyphicon glyphicon-eye-open"></span>                                &nbsp;&nbsp; <span>Faire découvrir l’univers de la création d’entreprise et l’actualité socio-économique du Maroc<br><span class="glyphicon glyphicon-random"></span> &nbsp;&nbsp; <span>Etablir des synergies entre les entreprises basées au Maroc et les compétences marocaines à l’étranger</span><br>
-                                <span class="glyphicon glyphicon-thumbs-up"></span> &nbsp;&nbsp; <span>Encourager les Marocains résidant à l'étranger ou des personnes fortement attachées au Maroc à créer leurs entreprises par le biais du Concours Tremplin</span><br><br>L’association
-                                regroupe aujourd’hui le plus grand réseau de cadres supérieurs et d’étudiants marocains avec plus de 12.000 membres. Son ambition est de proposer aux entrepreneurs en herbe un cadre propice qui leur permettra de :<br>
-                                <span class="glyphicon glyphicon-check"></span> &nbsp;&nbsp; Passer du stade de l’idée à la définition d’un Business Plan concret et complet ;<br><span class="glyphicon glyphicon-book"></span> &nbsp;&nbsp; Développer leurs
-                                compétences grâce aux sessions de formation individualisées dispensées par des experts en création d’entreprise ;<br><span class="glyphicon glyphicon-globe"></span> &nbsp;&nbsp; Etendre leur réseau, nouer des contacts avec
-                                les partenaires investisseurs les soutenant dans le financement de leur entreprise et accroître leur visibilité.</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <header class="onepage-section-headers text-align-center">
-                            <h3 class="page-title">A propos du programme Tremplin Maroc</h3>
-                            <h2 class="page-stitle">
-                                <p>Le programme <strong>Tremplin Maroc</strong> est le fer de lance de l’association. Il offre chaque année à une dizaine d’entrepreneurs en herbe une <strong>formation gratuite</strong>, un coaching personnalisé puis des
-                                    mises en relation pour concrétiser leur <strong>projet de création d’entreprise au Maroc</strong>.</p>
-                            </h2>
-                        </header>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Présentation en vidéo</h3>
-                                <div class="videoWrapper">
-                                    <!-- Copy & Pasted from YouTube --><iframe width="560" height="349" src="http://www.youtube.com/embed/fJpWNjW8w54?rel=0" frameborder="0" allowfullscreen></iframe></div>
-                            </div>
-                            <div class="col-md-6 sm-push-top">
-                                <h3 class="text-align-left">Témoignages des anciens lauréats</h3>
-                                <div class="accordion" id="toggleArea">
-                                    <div class="accordion-group panel">
-                                        <div class="accordion-heading togglize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseOne">ResinCycle – TM 2014<br>Par Manal KHALIKANE et Fahd NEAM-ALLAH <i class="fa fa-plus-circle"></i> <i class="fa fa-minus-circle"></i></a></div>
-                                        <div id="collapseOne" class="accordion-body collapse">
-                                            <div class="accordion-inner">« ResinCycle est une société de recyclage et de régénération des résines à partir de différents déchets plastiques (consommables et industriels).  Notre cœur de métier consiste à : recycler les déchets plastiques,
-                                                croiser les différents grades de résines, renforcer les propriétés chimiques et mécaniques des résines et enfin développer la Supply Chain au Maroc. Notre participation au concours de Maroc Entrepreneurs
-                                                a été un tremplin pour notre lancement. Le soutien de Maroc Entrepreneurs nous a permis d’avoir une vision claire et précise sur la stratégie à adopter pour attaquer notre marché.»</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-group panel">
-                                        <div class="accordion-heading togglize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseTwo">MOWII – TM 2013<br>Par Thameur HEMDANE <i class="fa fa-plus-circle"></i> <i class="fa fa-minus-circle"></i></a></div>
-                                        <div id="collapseTwo" class="accordion-body collapse">
-                                            <div class="accordion-inner">«Le programme d’accompagnement de Tremplin Maroc a été décisif dans le lancement de mon projet entrepreneurial. Les formations à la définition du modèle économique et à l’élaboration des prévisionnels financiers
-                                                sont de qualité. Elles m’ont fourni les outils indispensables pour la maîtrise des dimensions entrepreneuriale, économique et financière de mon projet. Le programme se distingue également par une offre de
-                                                coaching et de mise en réseau qui m’a permis d’avoir rapidement les points d’appui au Maroc. Je recommande ce programme à tous ceux qui souhaitent se lancer dans l’aventure entrepreneuriale au Maroc ou qui
-                                                hésitent encore à franchir le pas. »</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-group">
-                                        <div class="accordion-heading togglize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseThird">Cash-to-cash – TM 2012<br>Par Naama BAK et Abdelhamid BAKHTA <i class="fa fa-plus-circle"></i> <i class="fa fa-minus-circle"></i></a></div>
-                                        <div id="collapseThird" class="accordion-body collapse">
-                                            <div class="accordion-inner">« Maroc Entrepreneurs était pour nous un tremplin pour le lancement et la maturité de notre projet. En effet, nous avons pu réaliser notre business plan et nous initier aux divers aspects de l'entrepreneuriat,
-                                                grâce aux cours et séances de coaching. Nous avons aussi réussi à constituer un réseau très important dans le monde du Business. En outre, Maroc Entrepreneurs nous a donné l'opportunité de rencontrer des
-                                                investisseurs dont notre Business Angel qui a financé notre brevet. »</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Toggle -->
-                            </div>
-                        </div>
-                        <div class="spacer-50"></div>
-                    </div>
-                </section>
-            </div>
-        </div>
-        <!-- Start site footer -->
-        <footer class="site-footer lgray-bg padding-tb50">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 footer-widget">
-                        <h4 class="widgettitle">JCE - Journée de la création d'entreprise</h4>
-                        <p><img src="images/logo.png" alt=""></p>
-                        <h4 class="widgettitle">Inscrivez-vous dès maintenant à la prochaine édition de Tremplin Maroc !</h4>
-                        <p><strong>Contact: </strong>pce(at)marocentrepreneurs.com</p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 footer-widget">
-                        <h4 class="widgettitle">Et si c’était vous le prochain lauréat ?</h4>
-                        <ul>
-                            <li>Vous avez une idée de création d’entreprise au Maroc ?</li>
-                            <li>Vous voulez la concrétiser par la conception d’un Business Plan ?</li>
-                            <li>Vous cherchez des contacts pour booster votre projet ?</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-sm-4 footer-widget">
-                        <h4 class="widgettitle"><a href="https://www.weezevent.com/journee-de-la-creation-dentreprise-2017">Inscription JCE obligatoire</a></h4>
-                        <p><strong>ATTENTION </strong>: UNE seule inscription possible pour les ateliers du matin. Les inscriptions seront prises en compte par ordre d'arrivée et dans la mesure des places disponibles. Clôture des inscriptions le vendredi
-                            1er décembre 2017.</p>
-                        <p><strong>Contact JCE: </strong> Présidente :Bouchra BAYED, bouchra.bayed(at)marocentrepreneurs.com
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Start site footer bottom -->
-        <footer class="site-footer-bottom gray-bg padding-tb20">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 copyrights-left">&copy; 2017 Maroc entrepreneurs. Tous droits réservés.</div>
-                    <div class="col-md-6 col-sm-6 copyrights-right">
-                        <ul class="social-icons pull-right">
-                            <li><a href="https://www.facebook.com/maroc.entrepreneurs.1/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer><a id="back-to-top"><i class="fa fa-angle-double-up"></i></a></div>
-    <script src="js/jquery-2.0.0.min.js"></script>
-    <!-- Jquery Library Call -->
-    <!-- PrettyPhoto Plugin -->
-    <script src="js/helper-plugins.min.js"></script>
-    <!-- Helper Plugins -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- UI -->
-    <script src="js/waypoints.js"></script>
-    <!-- UI -->
-    <script src="js/init.min.js"></script>
-    <!-- All Scripts -->
-    <script src="vendor/flexslider/js/jquery.flexslider.js"></script>
-    <!-- FlexSlider -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkeX5k5KrZBY_QDuxuyH5AO9GqfZkiihg"></script>
-    <!-- Google Map -->
-    <script type="text/javascript">
-        function getGeocode() {
-            geocoder.geocode({
-                address: address
-            }, function(e, o) {
-                o == google.maps.GeocoderStatus.OK && (latitude = e[0].geometry.location.lat(), longitude = e[0].geometry.location.lng(), initGoogleMap())
-            })
-        }
+  <!-- Local scripts:start -->
 
-        function initGoogleMap() {
-            var e = {
-                    mapTypeControlOptions: {
-                        mapTypeIds: ["roadmap"]
-                    },
-                    center: new google.maps.LatLng(latitude, longitude),
-                    zoom: 13,
-                    scrollwheel: !0,
-                    navigationControl: !0,
-                    mapTypeControl: !1,
-                    zoomControl: !0,
-                    disableDefaultUI: !0,
-                    mapTypeId: "roadmap"
-                },
-                o = document.getElementById("gmap"),
-                a = new google.maps.Map(o, e);
-            marker = new google.maps.Marker({
-                map: a,
-                draggable: !1,
-                animation: google.maps.Animation.DROP,
-                position: new google.maps.LatLng(latitude, longitude)
-            });
-            var n = new google.maps.StyledMapType(null, {
-                name: "roadmap"
-            });
-            a.mapTypes.set("roadmap", n);
-            var t = new google.maps.InfoWindow({
-                content: $(".quick-venue-info")[0].innerHTML
-            });
-            google.maps.event.addListener(marker, "click", function() {
-                t.open(a, marker)
-            }), bounds = new google.maps.LatLngBounds(new google.maps.LatLng(48.8640272, 2.2926463)), rect = new google.maps.Rectangle({
-                bounds: bounds,
-                fillOpacity: .2,
-                strokeWeight: 0,
-                map: a
-            }), t.open(a, marker)
-        }
-        var geocoder = new google.maps.Geocoder,
-            address = "CESE, 9 Place d'Iéna, 75016 Paris",
-            latitude, longitude;
-        google.maps.event.addDomListener(window, "load", getGeocode)
-    </script>
+  <!-- lazySizes -->
+  <script>!function(a,b){var c=b(a,a.document);a.lazySizes=c,"object"==typeof module&&module.exports&&(module.exports=c)}(window,function(a,b){"use strict";if(b.getElementsByClassName){var c,d,e=b.documentElement,f=a.Date,g=a.HTMLPictureElement,h="addEventListener",i="getAttribute",j=a[h],k=a.setTimeout,l=a.requestAnimationFrame||k,m=a.requestIdleCallback,n=/^picture$/i,o=["load","error","lazyincluded","_lazyloaded"],p={},q=Array.prototype.forEach,r=function(a,b){return p[b]||(p[b]=new RegExp("(\\s|^)"+b+"(\\s|$)")),p[b].test(a[i]("class")||"")&&p[b]},s=function(a,b){r(a,b)||a.setAttribute("class",(a[i]("class")||"").trim()+" "+b)},t=function(a,b){var c;(c=r(a,b))&&a.setAttribute("class",(a[i]("class")||"").replace(c," "))},u=function(a,b,c){var d=c?h:"removeEventListener";c&&u(a,b),o.forEach(function(c){a[d](c,b)})},v=function(a,d,e,f,g){var h=b.createEvent("Event");return e||(e={}),e.instance=c,h.initEvent(d,!f,!g),h.detail=e,a.dispatchEvent(h),h},w=function(b,c){var e;!g&&(e=a.picturefill||d.pf)?(c&&c.src&&!b[i]("srcset")&&b.setAttribute("srcset",c.src),e({reevaluate:!0,elements:[b]})):c&&c.src&&(b.src=c.src)},x=function(a,b){return(getComputedStyle(a,null)||{})[b]},y=function(a,b,c){for(c=c||a.offsetWidth;c<d.minSize&&b&&!a._lazysizesWidth;)c=b.offsetWidth,b=b.parentNode;return c},z=function(){var a,c,d=[],e=[],f=d,g=function(){var b=f;for(f=d.length?e:d,a=!0,c=!1;b.length;)b.shift()();a=!1},h=function(d,e){a&&!e?d.apply(this,arguments):(f.push(d),c||(c=!0,(b.hidden?k:l)(g)))};return h._lsFlush=g,h}(),A=function(a,b){return b?function(){z(a)}:function(){var b=this,c=arguments;z(function(){a.apply(b,c)})}},B=function(a){var b,c=0,e=d.throttleDelay,g=d.ricTimeout,h=function(){b=!1,c=f.now(),a()},i=m&&g>49?function(){m(h,{timeout:g}),g!==d.ricTimeout&&(g=d.ricTimeout)}:A(function(){k(h)},!0);return function(a){var d;(a=!0===a)&&(g=33),b||(b=!0,d=e-(f.now()-c),d<0&&(d=0),a||d<9?i():k(i,d))}},C=function(a){var b,c,d=99,e=function(){b=null,a()},g=function(){var a=f.now()-c;a<d?k(g,d-a):(m||e)(e)};return function(){c=f.now(),b||(b=k(g,d))}};!function(){var b,c={lazyClass:"lazyload",loadedClass:"lazyloaded",loadingClass:"lazyloading",preloadClass:"lazypreload",errorClass:"lazyerror",autosizesClass:"lazyautosizes",srcAttr:"data-src",srcsetAttr:"data-srcset",sizesAttr:"data-sizes",minSize:40,customMedia:{},init:!0,expFactor:1.5,hFac:.8,loadMode:2,loadHidden:!0,ricTimeout:0,throttleDelay:125};d=a.lazySizesConfig||a.lazysizesConfig||{};for(b in c)b in d||(d[b]=c[b]);a.lazySizesConfig=d,k(function(){d.init&&F()})}();var D=function(){var g,l,m,o,p,y,D,F,G,H,I,J=/^img$/i,K=/^iframe$/i,L="onscroll"in a&&!/(gle|ing)bot/.test(navigator.userAgent),M=0,N=0,O=0,P=-1,Q=function(a){O--,a&&a.target&&u(a.target,Q),(!a||O<0||!a.target)&&(O=0)},R=function(a,c){var d,f=a,g="hidden"==x(b.body,"visibility")||"hidden"!=x(a.parentNode,"visibility")&&"hidden"!=x(a,"visibility");for(F-=c,I+=c,G-=c,H+=c;g&&(f=f.offsetParent)&&f!=b.body&&f!=e;)(g=(x(f,"opacity")||1)>0)&&"visible"!=x(f,"overflow")&&(d=f.getBoundingClientRect(),g=H>d.left&&G<d.right&&I>d.top-1&&F<d.bottom+1);return g},S=function(){var a,f,h,j,k,m,n,p,q,r,s,t,u=c.elements;if((o=d.loadMode)&&O<8&&(a=u.length)){for(f=0,P++,r=!d.expand||d.expand<1?e.clientHeight>500&&e.clientWidth>500?500:370:d.expand,s=r*d.expFactor,t=d.hFac,N<s&&O<1&&P>2&&o>2&&!b.hidden?(N=s,P=0):N=o>1&&P>1&&O<6?r:M;f<a;f++)if(u[f]&&!u[f]._lazyRace)if(L)if((p=u[f][i]("data-expand"))&&(m=1*p)||(m=N),q!==m&&(y=innerWidth+m*t,D=innerHeight+m,n=-1*m,q=m),h=u[f].getBoundingClientRect(),(I=h.bottom)>=n&&(F=h.top)<=D&&(H=h.right)>=n*t&&(G=h.left)<=y&&(I||H||G||F)&&(d.loadHidden||"hidden"!=x(u[f],"visibility"))&&(l&&O<3&&!p&&(o<3||P<4)||R(u[f],m))){if($(u[f]),k=!0,O>9)break}else!k&&l&&!j&&O<4&&P<4&&o>2&&(g[0]||d.preloadAfterLoad)&&(g[0]||!p&&(I||H||G||F||"auto"!=u[f][i](d.sizesAttr)))&&(j=g[0]||u[f]);else $(u[f]);j&&!k&&$(j)}},T=B(S),U=function(a){s(a.target,d.loadedClass),t(a.target,d.loadingClass),u(a.target,W),v(a.target,"lazyloaded")},V=A(U),W=function(a){V({target:a.target})},X=function(a,b){try{a.contentWindow.location.replace(b)}catch(c){a.src=b}},Y=function(a){var b,c=a[i](d.srcsetAttr);(b=d.customMedia[a[i]("data-media")||a[i]("media")])&&a.setAttribute("media",b),c&&a.setAttribute("srcset",c)},Z=A(function(a,b,c,e,f){var g,h,j,l,o,p;(o=v(a,"lazybeforeunveil",b)).defaultPrevented||(e&&(c?s(a,d.autosizesClass):a.setAttribute("sizes",e)),h=a[i](d.srcsetAttr),g=a[i](d.srcAttr),f&&(j=a.parentNode,l=j&&n.test(j.nodeName||"")),p=b.firesLoad||"src"in a&&(h||g||l),o={target:a},p&&(u(a,Q,!0),clearTimeout(m),m=k(Q,2500),s(a,d.loadingClass),u(a,W,!0)),l&&q.call(j.getElementsByTagName("source"),Y),h?a.setAttribute("srcset",h):g&&!l&&(K.test(a.nodeName)?X(a,g):a.src=g),f&&(h||l)&&w(a,{src:g})),a._lazyRace&&delete a._lazyRace,t(a,d.lazyClass),z(function(){(!p||a.complete&&a.naturalWidth>1)&&(p?Q(o):O--,U(o))},!0)}),$=function(a){var b,c=J.test(a.nodeName),e=c&&(a[i](d.sizesAttr)||a[i]("sizes")),f="auto"==e;(!f&&l||!c||!a[i]("src")&&!a.srcset||a.complete||r(a,d.errorClass)||!r(a,d.lazyClass))&&(b=v(a,"lazyunveilread").detail,f&&E.updateElem(a,!0,a.offsetWidth),a._lazyRace=!0,O++,Z(a,b,f,e,c))},_=function(){if(!l){if(f.now()-p<999)return void k(_,999);var a=C(function(){d.loadMode=3,T()});l=!0,d.loadMode=3,T(),j("scroll",function(){3==d.loadMode&&(d.loadMode=2),a()},!0)}};return{_:function(){p=f.now(),c.elements=b.getElementsByClassName(d.lazyClass),g=b.getElementsByClassName(d.lazyClass+" "+d.preloadClass),j("scroll",T,!0),j("resize",T,!0),a.MutationObserver?new MutationObserver(T).observe(e,{childList:!0,subtree:!0,attributes:!0}):(e[h]("DOMNodeInserted",T,!0),e[h]("DOMAttrModified",T,!0),setInterval(T,999)),j("hashchange",T,!0),["focus","mouseover","click","load","transitionend","animationend","webkitAnimationEnd"].forEach(function(a){b[h](a,T,!0)}),/d$|^c/.test(b.readyState)?_():(j("load",_),b[h]("DOMContentLoaded",T),k(_,2e4)),c.elements.length?(S(),z._lsFlush()):T()},checkElems:T,unveil:$}}(),E=function(){var a,c=A(function(a,b,c,d){var e,f,g;if(a._lazysizesWidth=d,d+="px",a.setAttribute("sizes",d),n.test(b.nodeName||""))for(e=b.getElementsByTagName("source"),f=0,g=e.length;f<g;f++)e[f].setAttribute("sizes",d);c.detail.dataAttr||w(a,c.detail)}),e=function(a,b,d){var e,f=a.parentNode;f&&(d=y(a,f,d),e=v(a,"lazybeforesizes",{width:d,dataAttr:!!b}),e.defaultPrevented||(d=e.detail.width)&&d!==a._lazysizesWidth&&c(a,f,e,d))},f=function(){var b,c=a.length;if(c)for(b=0;b<c;b++)e(a[b])},g=C(f);return{_:function(){a=b.getElementsByClassName(d.autosizesClass),j("resize",g)},checkElems:g,updateElem:e}}(),F=function(){F.i||(F.i=!0,E._(),D._())};return c={cfg:d,autoSizer:E,loader:D,init:F,uP:w,aC:s,rC:t,hC:r,fire:v,gW:y,rAF:z}}});</script>
+  <!-- inView -->
+  <script type="text/javascript">!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.inView=e():t.inView=e()}(this,function(){return function(t){function e(r){if(n[r])return n[r].exports;var i=n[r]={exports:{},id:r,loaded:!1};return t[r].call(i.exports,i,i.exports,e),i.loaded=!0,i.exports}var n={};return e.m=t,e.c=n,e.p="",e(0)}([function(t,e,n){"use strict";function r(t){return t&&t.__esModule?t:{"default":t}}var i=n(2),o=r(i);t.exports=o["default"]},function(t,e){function n(t){var e=typeof t;return null!=t&&("object"==e||"function"==e)}t.exports=n},function(t,e,n){"use strict";function r(t){return t&&t.__esModule?t:{"default":t}}Object.defineProperty(e,"__esModule",{value:!0});var i=n(9),o=r(i),u=n(3),f=r(u),s=n(4),c=function(){if("undefined"!=typeof window){var t=100,e=["scroll","resize","load"],n={history:[]},r={offset:{},threshold:0,test:s.inViewport},i=(0,o["default"])(function(){n.history.forEach(function(t){n[t].check()})},t);e.forEach(function(t){return addEventListener(t,i)}),window.MutationObserver&&addEventListener("DOMContentLoaded",function(){new MutationObserver(i).observe(document.body,{attributes:!0,childList:!0,subtree:!0})});var u=function(t){if("string"==typeof t){var e=[].slice.call(document.querySelectorAll(t));return n.history.indexOf(t)>-1?n[t].elements=e:(n[t]=(0,f["default"])(e,r),n.history.push(t)),n[t]}};return u.offset=function(t){if(void 0===t)return r.offset;var e=function(t){return"number"==typeof t};return["top","right","bottom","left"].forEach(e(t)?function(e){return r.offset[e]=t}:function(n){return e(t[n])?r.offset[n]=t[n]:null}),r.offset},u.threshold=function(t){return"number"==typeof t&&t>=0&&t<=1?r.threshold=t:r.threshold},u.test=function(t){return"function"==typeof t?r.test=t:r.test},u.is=function(t){return r.test(t,r)},u.offset(0),u}};e["default"]=c()},function(t,e){"use strict";function n(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(e,"__esModule",{value:!0});var r=function(){function t(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,r.key,r)}}return function(e,n,r){return n&&t(e.prototype,n),r&&t(e,r),e}}(),i=function(){function t(e,r){n(this,t),this.options=r,this.elements=e,this.current=[],this.handlers={enter:[],exit:[]},this.singles={enter:[],exit:[]}}return r(t,[{key:"check",value:function(){var t=this;return this.elements.forEach(function(e){var n=t.options.test(e,t.options),r=t.current.indexOf(e),i=r>-1,o=n&&!i,u=!n&&i;o&&(t.current.push(e),t.emit("enter",e)),u&&(t.current.splice(r,1),t.emit("exit",e))}),this}},{key:"on",value:function(t,e){return this.handlers[t].push(e),this}},{key:"once",value:function(t,e){return this.singles[t].unshift(e),this}},{key:"emit",value:function(t,e){for(;this.singles[t].length;)this.singles[t].pop()(e);for(var n=this.handlers[t].length;--n>-1;)this.handlers[t][n](e);return this}}]),t}();e["default"]=function(t,e){return new i(t,e)}},function(t,e){"use strict";function n(t,e){var n=t.getBoundingClientRect(),r=n.top,i=n.right,o=n.bottom,u=n.left,f=n.width,s=n.height,c={t:o,r:window.innerWidth-u,b:window.innerHeight-r,l:i},a={x:e.threshold*f,y:e.threshold*s};return c.t>e.offset.top+a.y&&c.r>e.offset.right+a.x&&c.b>e.offset.bottom+a.y&&c.l>e.offset.left+a.x}Object.defineProperty(e,"__esModule",{value:!0}),e.inViewport=n},function(t,e){(function(e){var n="object"==typeof e&&e&&e.Object===Object&&e;t.exports=n}).call(e,function(){return this}())},function(t,e,n){var r=n(5),i="object"==typeof self&&self&&self.Object===Object&&self,o=r||i||Function("return this")();t.exports=o},function(t,e,n){function r(t,e,n){function r(e){var n=x,r=m;return x=m=void 0,E=e,w=t.apply(r,n)}function a(t){return E=t,j=setTimeout(h,e),M?r(t):w}function l(t){var n=t-O,r=t-E,i=e-n;return _?c(i,g-r):i}function d(t){var n=t-O,r=t-E;return void 0===O||n>=e||n<0||_&&r>=g}function h(){var t=o();return d(t)?p(t):void(j=setTimeout(h,l(t)))}function p(t){return j=void 0,T&&x?r(t):(x=m=void 0,w)}function v(){void 0!==j&&clearTimeout(j),E=0,x=O=m=j=void 0}function y(){return void 0===j?w:p(o())}function b(){var t=o(),n=d(t);if(x=arguments,m=this,O=t,n){if(void 0===j)return a(O);if(_)return j=setTimeout(h,e),r(O)}return void 0===j&&(j=setTimeout(h,e)),w}var x,m,g,w,j,O,E=0,M=!1,_=!1,T=!0;if("function"!=typeof t)throw new TypeError(f);return e=u(e)||0,i(n)&&(M=!!n.leading,_="maxWait"in n,g=_?s(u(n.maxWait)||0,e):g,T="trailing"in n?!!n.trailing:T),b.cancel=v,b.flush=y,b}var i=n(1),o=n(8),u=n(10),f="Expected a function",s=Math.max,c=Math.min;t.exports=r},function(t,e,n){var r=n(6),i=function(){return r.Date.now()};t.exports=i},function(t,e,n){function r(t,e,n){var r=!0,f=!0;if("function"!=typeof t)throw new TypeError(u);return o(n)&&(r="leading"in n?!!n.leading:r,f="trailing"in n?!!n.trailing:f),i(t,e,{leading:r,maxWait:e,trailing:f})}var i=n(7),o=n(1),u="Expected a function";t.exports=r},function(t,e){function n(t){return t}t.exports=n}])});</script>
+  <script src="./assets/resources/js/index.js"></script>
+  <!-- Local scripts:end -->
+
+  <!-- external scripts:start -->
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkeX5k5KrZBY_QDuxuyH5AO9GqfZkiihg"></script>
+  <script type="text/javascript">function getGeocode(){geocoder.geocode({address:address},function(e,o){o==google.maps.GeocoderStatus.OK&&(latitude=e[0].geometry.location.lat(),longitude=e[0].geometry.location.lng(),initGoogleMap())})}function initGoogleMap(){var e={mapTypeControlOptions:{mapTypeIds:["roadmap"]},center:new google.maps.LatLng(latitude,longitude),zoom:13,scrollwheel:!0,navigationControl:!0,mapTypeControl:!1,zoomControl:!0,disableDefaultUI:!0,mapTypeId:"roadmap"},o=document.getElementById("gmap"),a=new google.maps.Map(o,e);marker=new google.maps.Marker({map:a,draggable:!1,animation:google.maps.Animation.DROP,position:new google.maps.LatLng(latitude,longitude)});var n=new google.maps.StyledMapType(null,{name:"roadmap"});a.mapTypes.set("roadmap",n);var t=new google.maps.InfoWindow({content:'\n        <div class="quick-venue-info">\n          <h3 class="venue-name">ESG</h3>\n          <h4 class="venue-address">25 rue saint ambroise 75011 paris</h4>\n          <a class="venue-map-link" href="">Voir sur google maps</a>\n        </div>'});google.maps.event.addListener(marker,"click",function(){t.open(a,marker)}),bounds=new google.maps.LatLngBounds(new google.maps.LatLng(48.8640272,2.2926463)),rect=new google.maps.Rectangle({bounds:bounds,fillOpacity:.2,strokeWeight:0,map:a}),t.open(a,marker)}var latitude,longitude,geocoder=new google.maps.Geocoder,address="25 rue saint ambroise 75011 paris";google.maps.event.addDomListener(window,"load",getGeocode);</script>
+  <!-- external scripts:end -->
 </body>
 
 </html>
