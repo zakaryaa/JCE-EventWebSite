@@ -24,7 +24,7 @@
   </style>
 
   <!-- Local resources:start -->
-  <link rel="stylesheet" href="./assets/resources/css/styles.min.css">
+  <link rel="stylesheet" href="./assets/resources/css/styles.css">
   <!-- Local resources:end -->
 
   <!-- external resources:start -->
@@ -1418,14 +1418,64 @@
       }])
     });
   </script>
-  <script src="./assets/resources/js/index.min.js"></script>
+  <script src="./assets/resources/js/index.js"></script>
   <!-- Local scripts:end -->
 
   <!-- external scripts:start -->
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkeX5k5KrZBY_QDuxuyH5AO9GqfZkiihg"></script>
   <script type="text/javascript">
-    function getGeocode(){geocoder.geocode({address:address},function(b,c){c==google.maps.GeocoderStatus.OK&&(latitude=b[0].geometry.location.lat(),longitude=b[0].geometry.location.lng(),initGoogleMap())})}function initGoogleMap(){var b={mapTypeControlOptions:{mapTypeIds:["roadmap"]},center:new google.maps.LatLng(latitude,longitude),zoom:13,scrollwheel:!0,navigationControl:!0,mapTypeControl:!1,zoomControl:!0,disableDefaultUI:!0,mapTypeId:"roadmap"},c=document.getElementById("gmap"),d=new google.maps.Map(c,b),f=new google.maps.Marker({map:d,draggable:!1,animation:google.maps.Animation.DROP,position:new google.maps.LatLng(latitude,longitude)}),g=new google.maps.StyledMapType(null,{name:"roadmap"});d.mapTypes.set("roadmap",g);var h=new google.maps.InfoWindow({content:"\n        <div class=\"quick-venue-info\">\n          <h3 class=\"venue-name\">ESG</h3>\n          <h4 class=\"venue-address\">25 rue saint ambroise 75011 paris</h4>\n          <a class=\"venue-map-link\" target=\"_blank\" href=\"https://www.google.com/maps/place/25+Rue+Saint-Ambroise,+75011+Paris,+France/@48.8624137,2.3779004,3a,75y,318.95h,90t/data=!3m6!1e1!3m4!1s_5B8xlDxQ4GlIUpj_UoPnQ!2e0!7i16384!8i8192!4m5!3m4!1s0x47e66dfa666a79c7:0x517f6b293400f208!8m2!3d48.8625472!4d2.3777555\">Voir sur google maps</a>\n        </div>"});google.maps.event.addListener(f,"click",function(){h.open(d,f)}),bounds=new google.maps.LatLngBounds(new google.maps.LatLng(48.8640272,2.2926463)),rect=new google.maps.Rectangle({bounds:bounds,fillOpacity:.2,strokeWeight:0,map:d}),h.open(d,f)}var latitude,longitude,geocoder=new google.maps.Geocoder,address="25 rue saint ambroise 75011 paris";google.maps.event.addDomListener(window,"load",getGeocode);
+    function getGeocode() {
+      geocoder.geocode({
+        address: address
+      }, function (e, o) {
+        o == google.maps.GeocoderStatus.OK && (latitude = e[0].geometry.location.lat(), longitude = e[0]
+          .geometry.location.lng(), initGoogleMap())
+      })
+    }
+
+    function initGoogleMap() {
+      var e = {
+          mapTypeControlOptions: {
+            mapTypeIds: ["roadmap"]
+          },
+          center: new google.maps.LatLng(latitude, longitude),
+          zoom: 13,
+          scrollwheel: !0,
+          navigationControl: !0,
+          mapTypeControl: !1,
+          zoomControl: !0,
+          disableDefaultUI: !0,
+          mapTypeId: "roadmap"
+        },
+        o = document.getElementById("gmap"),
+        a = new google.maps.Map(o, e);
+      marker = new google.maps.Marker({
+        map: a,
+        draggable: !1,
+        animation: google.maps.Animation.DROP,
+        position: new google.maps.LatLng(latitude, longitude)
+      });
+      var n = new google.maps.StyledMapType(null, {
+        name: "roadmap"
+      });
+      a.mapTypes.set("roadmap", n);
+      var t = new google.maps.InfoWindow({
+        content: '\n        <div class="quick-venue-info">\n          <h3 class="venue-name">ESG</h3>\n          <h4 class="venue-address">25 rue saint ambroise 75011 paris</h4>\n          <a class="venue-map-link" href="">Voir sur google maps</a>\n        </div>'
+      });
+      google.maps.event.addListener(marker, "click", function () {
+          t.open(a, marker)
+        }), bounds = new google.maps.LatLngBounds(new google.maps.LatLng(48.8640272, 2.2926463)), rect = new google
+        .maps.Rectangle({
+          bounds: bounds,
+          fillOpacity: .2,
+          strokeWeight: 0,
+          map: a
+        }), t.open(a, marker)
+    }
+    var latitude, longitude, geocoder = new google.maps.Geocoder,
+      address = "25 rue saint ambroise 75011 paris";
+    google.maps.event.addDomListener(window, "load", getGeocode);
   </script>
   <!-- external scripts:end -->
 </body>
