@@ -1,2 +1,4 @@
 # vs code configuration folder
 .vscode/
+
+.DS_Store

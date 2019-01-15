@@ -100,6 +100,12 @@ h4 {
   transition: background 0.3s ease;
 }
 
+a.btn,
+a.btn:active,
+a.btn:visited {
+  color: white;
+}
+
 .btn.primary {
   background-color: var(--primary-color);
   border-color: var(--primary-color-dark);
@@ -269,8 +275,7 @@ h4 {
 
 .hero {
   width: 100vw;
-  height: 85vh;
-  min-height: 600px;
+  height: 70vh;
   background-image:
     url("./../images/hero-bg.jpg");
   background-attachment: fixed;
@@ -286,7 +291,7 @@ h4 {
 .hero-content {
   font-family: 'Merriweather', serif;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
   width: 100%;
   max-width: 600px;
@@ -295,9 +300,13 @@ h4 {
   border-radius: 3px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   .hero {
-    height: 100vh;
+    height: 90vh;
+  }
+
+  .hero-content {
+    font-size: 1.5em;
   }
 }
 
@@ -602,9 +611,14 @@ h4 {
   left: 0;
   transition: opacity 0.4s ease;
   cursor: pointer;
-  color: #fff;
   font-size: 3em;
   display: flex;
+}
+
+.overlay-link,
+.overlay-link:active,
+.overlay-link:visited {
+  color: #fff;
 }
 
 .avatar:hover .overlay-link {
