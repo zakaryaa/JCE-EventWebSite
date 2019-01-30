@@ -24,44 +24,47 @@ html {
 }
 
 /* Inherting border-box from html */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html, body {
-	margin: 0;
-	padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-	font-size: 16px;
+  font-size: 16px;
   overflow-x: hidden;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .container {
-	padding: 0 8px;
+  padding: 0 8px;
 }
 
 p {
-	line-height: 1.4em;
+  line-height: 1.4em;
 }
 
-h2{
-	margin-bottom: .5em;
+h2 {
+  margin-bottom: .5em;
 }
 
 h3 {
-	margin-top: .5em;
+  margin-top: .5em;
 }
 
 a,
 a:visited {
-	text-decoration: none;
+  text-decoration: none;
   color: var(--text-color);
 }
 
@@ -70,7 +73,7 @@ header,
 main,
 footer,
 ul {
-	width: 100%;
+  width: 100%;
 }
 
 h1,
@@ -179,26 +182,26 @@ a.btn:visited {
   list-style: none;
 }
 
-.nav-item > a {
+.nav-item>a {
   padding: 16px 0 16px 20px;
   width: 100%;
   display: block;
   transition: all 0.25s ease;
 }
 
-.last-nav-item > a {
+.last-nav-item>a {
   background-color: var(--secondary-color);
   color: #fff;
 }
 
-.nav-item > a:hover,
-.nav-item > a:focus,
-.nav-item.active > a {
+.nav-item>a:hover,
+.nav-item>a:focus,
+.nav-item.active>a {
   background-color: var(--primary-color);
   color: #fff;
 }
 
-@media screen and (max-width:1099px)  {
+@media screen and (max-width:1099px) {
   .nav {
     max-width: 450px;
     top: var(--nav-height-top);
@@ -208,7 +211,7 @@ a.btn:visited {
     max-height: 0;
     transition: max-height 0.15s ease-out;
     overflow: hidden;
-    box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 3px -1px rgba(0, 0, 0, 0.75);
     background-color: white;
   }
 
@@ -231,7 +234,7 @@ a.btn:visited {
   .nav,
   .nav-list,
   .nav-item,
-  .nav-item > a {
+  .nav-item>a {
     height: 100%;
   }
 
@@ -249,22 +252,22 @@ a.btn:visited {
     float: left;
   }
 
-  .nav-item > a {
+  .nav-item>a {
     padding: 0 18px;
     line-height: var(--nav-height-top);
   }
 
-  .header.on-scroll .nav-item > a {
+  .header.on-scroll .nav-item>a {
     line-height: var(--nav-height-on-scroll);
   }
 
   .header,
-  .nav-item > a {
+  .nav-item>a {
     transition: all 0.3s ease;
   }
 
   .hamburger {
-    display: none!important;
+    display: none !important;
   }
 }
 
@@ -344,6 +347,7 @@ a.btn:visited {
   }
 
 }
+
 @media screen and (min-width:900px) {
   .info-lead {
     width: 70%;
@@ -419,6 +423,7 @@ a.btn:visited {
     width: 90%;
   }
 }
+
 @media screen and (min-width:900px) {
   .container.extra {
     width: 70%;
@@ -494,18 +499,18 @@ a.btn:visited {
 }
 
 .event-btn.active::after {
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(136, 183, 213, 0);
-	border-top-color: var(--primary-color);
-	border-width: 10px;
-	margin-left: -10px;
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: var(--primary-color);
+  border-width: 10px;
+  margin-left: -10px;
 }
 
 .event {
@@ -743,7 +748,7 @@ a.btn:visited {
 }
 
 .gm-style-iw {
-  text-align: center!important;
+  text-align: center !important;
 }
 
 .quick-venue-info {
@@ -762,7 +767,7 @@ a.btn:visited {
 .venue-map-link {
   padding: 8px 16px;
   background-color: var(--secondary-color);
-  color: #fff!important;
+  color: #fff !important;
   border-radius: 5px;
 }
 
@@ -822,7 +827,7 @@ a.btn:visited {
 }
 
 @media screen and (min-width:750px) {
-  .reg-info  {
+  .reg-info {
     width: 60%;
   }
 
@@ -877,14 +882,6 @@ a.btn:visited {
   padding-bottom: 8px;
 }
 
-/* .sub-section:not(.bg-grey) .box {
-  background-color: var(--light-bg-color);
-}
-
-.sub-section.bg-grey .box {
-  background-color: #fff;
-} */
-
 .simple-grid .box img {
   max-height: 220px;
 }
@@ -896,6 +893,14 @@ a.btn:visited {
 }
 
 @media screen and (min-width:600px) and (max-width:799px) {
+  .simple-grid .box.bigger {
+    width: calc((100% - 16px)/2);
+  }
+
+  .simple-grid .box.bigger:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
   .simple-grid .box {
     width: calc((100% - 32px)/3);
   }
@@ -906,6 +911,22 @@ a.btn:visited {
 }
 
 @media screen and (min-width:800px) {
+  .simple-grid .box.bigger {
+    width: calc((100% - 16px)/2);
+  }
+
+  .simple-grid .box.bigger:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  .simple-grid .box.big {
+    width: calc((100% - 32px)/3);
+  }
+
+  .simple-grid .box.big:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
   .simple-grid .box {
     width: calc((100% - 48px)/4);
   }
@@ -920,7 +941,6 @@ a.btn:visited {
     padding: 24px 10%;
   }
 }
-
 
 /******************************
 *************About*************
@@ -1018,6 +1038,7 @@ a.btn:visited {
 }
 
 @media screen and (min-width:800px) {
+
   .about-extra .first-column,
   .about-extra .second-column {
     width: 48%;
@@ -1200,37 +1221,40 @@ a.btn:visited {
 ******************************/
 
 .slide-in-top {
-	animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slide-in-top {
   0% {
     -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+    transform: translateY(-1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes slide-in-top {
   0% {
     -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+    transform: translateY(-1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
 
 
 .text-focus-in {
-	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.82s both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.82s both;
 }
 
 
@@ -1239,6 +1263,7 @@ a.btn:visited {
     filter: blur(12px);
     opacity: 0;
   }
+
   100% {
     filter: blur(0px);
     opacity: 1;
